@@ -16100,13 +16100,6 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <pinref part="R11" gate="G$1" pin="S"/>
 </segment>
 </net>
-<net name="DAC" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PA4"/>
-<wire x1="55.88" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-<label x="45.72" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="UART_TX_STM" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA2"/>
@@ -16200,14 +16193,14 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </net>
 <net name="S3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PA1"/>
-<wire x1="55.88" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<label x="45.72" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$5" gate="G$1" pin="IN1"/>
 <wire x1="88.9" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
 <label x="86.36" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PA4"/>
+<wire x1="55.88" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<label x="45.72" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADC_S" class="0">
