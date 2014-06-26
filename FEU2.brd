@@ -119,17 +119,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<text x="75.56" y="70.26" size="1.778" layer="16" rot="MR270">_</text>
-<text x="73.09" y="77.49" size="1.778" layer="16" rot="MR90">5V</text>
-<text x="73.05" y="81.46" size="1.778" layer="16" rot="MR90">3.3V</text>
+<wire x1="1.35" y1="5.63" x2="80.72" y2="5.81" width="0" layer="20"/>
+<wire x1="80.72" y1="5.81" x2="80.45" y2="87.27" width="0" layer="20"/>
+<wire x1="80.45" y1="87.27" x2="1.37" y2="87.29" width="0" layer="20"/>
+<wire x1="1.37" y1="87.29" x2="1.35" y2="5.63" width="0" layer="20"/>
+<text x="74.45" y="70.25" size="1.778" layer="16" rot="MR0">_</text>
+<text x="75.07" y="77.55" size="1.778" layer="16" rot="MR0">5V</text>
+<text x="76.55" y="80.17" size="1.778" layer="16" rot="MR0">3.3V</text>
 <rectangle x1="65.84" y1="67.29" x2="70.79" y2="70.75" layer="16"/>
 <text x="9.13" y="53.21" size="1.778" layer="16" rot="MR0">+</text>
 <text x="42.26" y="19.85" size="1.016" layer="16" rot="MR0">GND</text>
 <text x="36.54" y="12.07" size="1.778" layer="16" rot="MR0">+</text>
+<text x="75.33" y="71.75" size="1.778" layer="16" rot="MR0">TX</text>
+<text x="75.49" y="74.74" size="1.778" layer="16" rot="MR0">RX</text>
 </plain>
 <libraries>
 <library name="STM32L152">
