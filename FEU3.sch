@@ -15501,7 +15501,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <part name="R14" library="resistor" deviceset="R-EU_" device="R0805" value="510"/>
 <part name="SB2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="R16" library="resistor" deviceset="R-EU_" device="R0805" value="510"/>
 <part name="SB1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -15542,6 +15542,8 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="15V" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15655,6 +15657,8 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <instance part="GND7" gate="1" x="210.82" y="15.24"/>
 <instance part="GND16" gate="1" x="226.06" y="15.24"/>
 <instance part="GND24" gate="1" x="134.62" y="12.7"/>
+<instance part="15V" gate="G$1" x="177.8" y="246.38" rot="R180"/>
+<instance part="GND4" gate="1" x="187.96" y="243.84" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15946,6 +15950,11 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="134.62" y1="22.86" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="15V" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -16061,6 +16070,11 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="223.52" x2="45.72" y2="223.52" width="0.1524" layer="91"/>
 <label x="45.72" y="223.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="15V" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="246.38" x2="185.42" y2="246.38" width="0.1524" layer="91"/>
+<label x="185.42" y="246.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BLUE" class="0">
